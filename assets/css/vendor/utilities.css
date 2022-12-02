@@ -1,0 +1,23 @@
+/*===========================================
+=============== Utilities ===================
+=============================================*/
+/* 
+font-family: 'Red Hat Display', sans-serif;
+*/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.slick-initialized .slick-slide {
+  margin-bottom: -10px;
+}
