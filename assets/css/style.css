@@ -39,6 +39,8 @@
 /* Default  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap");
+
+/* VARIABLES,TYPOGRAPHY, SPACING START */
 :root {
   --color-primary: #ff014f;
   --color-secondary: #f4f5f6;
@@ -109,6 +111,10 @@
   --h5: 30px;
   --h6: 20px;
 }
+/* ================================ */
+/* ====VARIABLES, TYPOGRAPHY, SPACING END==== */
+/* ================================ */
+
 
 * {
   box-sizing: border-box;
@@ -573,6 +579,7 @@ ol ul {
     padding-top: 80px;
   }
 }
+
 
 .pl--0 {
   padding-left: 0 !important;
@@ -2205,6 +2212,16 @@ ol ul {
 .ml--200 {
   margin-left: 200px !important;
 }
+
+/* 
+================================================
+=================================================
+=================================================
+====== MEDIA QUERIES FOR DIFFERENT SCREEN =======
+=================================================
+================================================
+===============================================
+*/
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
   .ptb_lp--5 {
@@ -5771,6 +5788,17 @@ ol ul {
     margin-bottom: 100px !important;
   }
 }
+/* 
+==========================================
+==========================================
+=========================================
+========================================
+=======================================
+=======================================
+=======================================
+*/
+
+
 .slick-gutter-5 {
   margin-left: -5px;
   margin-right: -5px;
@@ -6211,6 +6239,12 @@ svg:not(:root) {
 figure {
   margin: 0;
 }
+
+
+/* ========================================== */
+/* ================FORMS ELEMENT START============= */
+/* ========================================== */
+
 
 form {
   margin: 0;
@@ -6780,10 +6814,17 @@ input[type=submit]:hover {
   color: var(--color-primary);
   transform: translateY(-5px);
 }
+/* ================================================ */
+/* ================FORMS ELEMENT END============= */
+/* ================================================ */
 
-/*==============================
- *  Utilities
-=================================*/
+
+
+
+
+/*===========================================
+=============== Utilities ===================
+=============================================*/
 /* 
 font-family: 'Red Hat Display', sans-serif;
 */
@@ -8016,9 +8057,6 @@ ul.slick-dots li button {
 /*!
 Animate.css - http://daneden.me/animate
 Version - 3.4.0
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-
-Copyright (c) 2015 Daniel Eden
 */
 .animated {
   -webkit-animation-duration: 1s;
@@ -11386,6 +11424,7 @@ body.template-color-1 {
 .header-style-2 .header-right .hamberger-menu i {
   font-size: 32px;
   color: var(--color-primary);
+  cursor: pointer;
 }
 
 /*--------------------------
